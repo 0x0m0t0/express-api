@@ -1,218 +1,218 @@
 {
-    "foodDishes": [
-      {
-        "name": "Spaghetti Carbonara",
-        "timeToPrepare": "30 minutes",
-        "ingredients": [
-          "200g spaghetti",
-          "100g pancetta or guanciale, diced",
-          "3 large eggs",
-          "50g Pecorino Romano cheese, grated",
-          "Salt and black pepper to taste"
-        ],
-        "listOfSteps": [
-          "Cook the spaghetti in boiling salted water until al dente.",
-          "In a separate pan, fry the pancetta or guanciale until crispy.",
-          "In a bowl, whisk together the eggs, grated Pecorino Romano cheese, salt, and black pepper.",
-          "Drain the cooked spaghetti and add it to the pan with the pancetta/guanciale. Mix well.",
-          "Remove the pan from heat and quickly stir in the egg and cheese mixture.",
-          "The residual heat will cook the eggs and create a creamy sauce. Serve immediately."
-        ],
-        "difficulty": "Intermediate"
-      },
-      {
-        "name": "Chicken Curry",
-        "timeToPrepare": "40 minutes",
-        "ingredients": [
-          "500g chicken, cut into pieces",
-          "2 onions, finely chopped",
-          "3 garlic cloves, minced",
-          "1-inch ginger, grated",
-          "2 tomatoes, chopped",
-          "2 tablespoons curry powder",
-          "1 cup coconut milk",
-          "2 tablespoons vegetable oil",
-          "Salt and chili powder to taste"
-        ],
-        "listOfSteps": [
-          "Heat oil in a pan and sauté the chopped onions, garlic, and ginger until golden brown.",
-          "Add the chicken pieces and cook until they turn white.",
-          "Stir in the curry powder, salt, and chili powder. Cook for a few minutes.",
-          "Add the chopped tomatoes and cook until they soften.",
-          "Pour in the coconut milk, bring to a simmer, and cook until the chicken is tender.",
-          "Adjust seasoning as needed. Serve with steamed rice or naan bread."
-        ],
-        "difficulty": "Easy"
-      },
-      {
-        "name": "Beef Lasagna",
-        "timeToPrepare": "1 hour 30 minutes",
-        "ingredients": [
-          "500g ground beef",
-          "1 onion, finely chopped",
-          "3 garlic cloves, minced",
-          "800g canned crushed tomatoes",
-          "2 tablespoons tomato paste",
-          "1 teaspoon dried oregano",
-          "1 teaspoon dried basil",
-          "250g lasagna noodles",
-          "300g ricotta cheese",
-          "200g shredded mozzarella cheese",
-          "50g grated Parmesan cheese",
-          "Salt and black pepper to taste"
-        ],
-        "listOfSteps": [
-          "In a pan, brown the ground beef with onions and garlic. Drain excess fat.",
-          "Add the crushed tomatoes, tomato paste, oregano, basil, salt, and black pepper. Simmer for 20 minutes.",
-          "Cook the lasagna noodles according to the package instructions.",
-          "Preheat the oven to 180°C (350°F).",
-          "In a baking dish, layer the lasagna: meat sauce, noodles, ricotta, mozzarella, and Parmesan cheese.",
-          "Repeat the layers and finish with a layer of meat sauce and cheeses on top.",
-          "Bake in the oven for 30-35 minutes until the cheese is bubbly and golden brown.",
-          "Let it rest for a few minutes before serving."
-        ],
-        "difficulty": "Intermediate"
-      },
-      {
-        "name": "Caprese Salad",
-        "timeToPrepare": "15 minutes",
-        "ingredients": [
-          "2 large tomatoes, sliced",
-          "200g fresh mozzarella, sliced",
-          "Fresh basil leaves",
-          "2 tablespoons balsamic glaze",
-          "2 tablespoons extra virgin olive oil",
-          "Salt and black pepper to taste"
-        ],
-        "listOfSteps": [
-          "Alternate slices of tomatoes and fresh mozzarella on a serving plate.",
-          "Tuck fresh basil leaves between the slices.",
-          "Drizzle balsamic glaze and olive oil over the salad.",
-          "Season with salt and black pepper to taste.",
-          "Serve as a refreshing appetizer or side dish."
-        ],
-        "difficulty": "Easy"
-      },
-      {
-        "name": "Thai Green Curry",
-        "timeToPrepare": "45 minutes",
-        "ingredients": [
-          "400g chicken, sliced",
-          "1 can (400ml) coconut milk",
-          "2 tablespoons green curry paste",
-          "1 red bell pepper, sliced",
-          "1 green bell pepper, sliced",
-          "1 zucchini, sliced",
-          "1 cup bamboo shoots",
-          "2 tablespoons fish sauce",
-          "1 tablespoon brown sugar",
-          "Fresh basil leaves for garnish",
-          "Cooked jasmine rice"
-        ],
-        "listOfSteps": [
-          "In a pot, heat a splash of coconut milk and stir in the green curry paste until fragrant.",
-          "Add the sliced chicken and cook until it turns white.",
-          "Pour in the remaining coconut milk and bring it to a simmer.",
-          "Add the sliced bell peppers, zucchini, and bamboo shoots. Simmer until vegetables are tender.",
-          "Season the curry with fish sauce and brown sugar. Adjust to your taste.",
-          "Garnish with fresh basil leaves and serve with jasmine rice."
-        ],
-        "difficulty": "Intermediate"
-      },
-      {
-        "name": "Pasta Aglio e Olio",
-        "timeToPrepare": "20 minutes",
-        "ingredients": [
-          "200g spaghetti",
-          "4 garlic cloves, thinly sliced",
-          "1 teaspoon red pepper flakes",
-          "1/3 cup olive oil",
-          "1/4 cup chopped parsley",
-          "Salt and black pepper to taste"
-        ],
-        "listOfSteps": [
-          "Cook the spaghetti in boiling salted water until al dente.",
-          "In a pan, heat the olive oil and add sliced garlic and red pepper flakes. Cook until garlic turns golden.",
-          "Add the cooked spaghetti to the pan and toss well in the garlic-infused oil.",
-          "Season with salt and black pepper to taste.",
-          "Garnish with chopped parsley before serving."
-        ],
-        "difficulty": "Easy"
-      },
-      {
-        "name": "Grilled Salmon",
-        "timeToPrepare": "25 minutes",
-        "ingredients": [
-          "4 salmon fillets",
-          "2 tablespoons olive oil",
-          "2 tablespoons lemon juice",
-          "2 cloves garlic, minced",
-          "1 teaspoon dried oregano",
-          "1 teaspoon dried thyme",
-          "Salt and black pepper to taste"
-        ],
-        "listOfSteps": [
-          "Preheat the grill to medium-high heat.",
-          "In a bowl, mix olive oil, lemon juice, minced garlic, oregano, thyme, salt, and black pepper.",
-          "Coat the salmon fillets with the marinade and let them sit for 10 minutes.",
-          "Grill the salmon for about 4-5 minutes on each side or until cooked through.",
-          "Serve with your favorite side dishes."
-        ],
-        "difficulty": "Easy"
-      },
-      {
-        "name": "Beef Stir-Fry",
-        "timeToPrepare": "25 minutes",
-        "ingredients": [
-          "400g beef sirloin, thinly sliced",
-          "2 tablespoons soy sauce",
-          "1 tablespoon oyster sauce",
-          "1 tablespoon hoisin sauce",
-          "2 tablespoons vegetable oil",
-          "1 onion, sliced",
-          "1 bell pepper, sliced",
-          "1 cup broccoli florets",
-          "2 garlic cloves, minced",
-          "Cooked rice for serving"
-        ],
-        "listOfSteps": [
-          "In a bowl, marinate the sliced beef with soy sauce, oyster sauce, and hoisin sauce.",
-          "In a wok or large pan, heat the vegetable oil over high heat.",
-          "Add the marinated beef and stir-fry for 2-3 minutes until it browns. Remove from the pan.",
-          "In the same pan, add a bit more oil if needed, and sauté the garlic, onion, bell pepper, and broccoli.",
-          "Stir-fry until the vegetables are tender-crisp.",
-          "Return the cooked beef to the pan and toss everything together.",
-          "Serve the beef stir-fry over steamed rice."
-        ],
-        "difficulty": "Intermediate"
-      },
-      {
-        "name": "Chocolate Lava Cake",
-        "timeToPrepare": "30 minutes",
-        "ingredients": [
-          "1/2 cup unsalted butter",
-          "4 ounces bittersweet chocolate",
-          "1 cup powdered sugar",
-          "2 whole eggs",
-          "3 egg yolks",
-          "1 teaspoon vanilla extract",
-          "1/2 cup all-purpose flour",
-          "Pinch of salt",
-          "Vanilla ice cream for serving"
-        ],
-        "listOfSteps": [
-          "Preheat the oven to 200°C (400°F). Grease and flour 4 ramekins.",
-          "In a microwave-safe bowl, melt the butter and bittersweet chocolate together.",
-          "Stir in the powdered sugar until well combined.",
-          "Add the whole eggs and egg yolks, one at a time, mixing well after each addition.",
-          "Stir in the vanilla extract, flour, and a pinch of salt until the batter is smooth.",
-          "Divide the batter among the prepared ramekins.",
-          "Bake in the preheated oven for 12-14 minutes. The edges should be set, but the center will still be soft.",
-          "Remove the ramekins from the oven and let them cool for a minute before serving.",
-          "Invert each ramekin onto a serving plate and serve with a scoop of vanilla ice cream."
-        ],
-        "difficulty": "Intermediate"
-      }
-    ]
+	"foodDishes": [
+	  {
+		"name": "Spaghetti Carbonara",
+		"timeToPrepare": "30 minutes",
+		"ingredients": [
+		  "200g spaghetti",
+		  "100g pancetta or guanciale, diced",
+		  "3 large eggs",
+		  "50g Pecorino Romano cheese, grated",
+		  "Salt and black pepper to taste"
+		],
+		"listOfSteps": [
+		  "Cook the spaghetti in boiling salted water until al dente.",
+		  "In a separate pan, fry the pancetta or guanciale until crispy.",
+		  "In a bowl, whisk together the eggs, grated Pecorino Romano cheese, salt, and black pepper.",
+		  "Drain the cooked spaghetti and add it to the pan with the pancetta/guanciale. Mix well.",
+		  "Remove the pan from heat and quickly stir in the egg and cheese mixture.",
+		  "The residual heat will cook the eggs and create a creamy sauce. Serve immediately."
+		],
+		"difficulty": "Intermediate"
+	  },
+	  {
+		"name": "Chicken Curry",
+		"timeToPrepare": "40 minutes",
+		"ingredients": [
+		  "500g chicken, cut into pieces",
+		  "2 onions, finely chopped",
+		  "3 garlic cloves, minced",
+		  "1-inch ginger, grated",
+		  "2 tomatoes, chopped",
+		  "2 tablespoons curry powder",
+		  "1 cup coconut milk",
+		  "2 tablespoons vegetable oil",
+		  "Salt and chili powder to taste"
+		],
+		"listOfSteps": [
+		  "Heat oil in a pan and sauté the chopped onions, garlic, and ginger until golden brown.",
+		  "Add the chicken pieces and cook until they turn white.",
+		  "Stir in the curry powder, salt, and chili powder. Cook for a few minutes.",
+		  "Add the chopped tomatoes and cook until they soften.",
+		  "Pour in the coconut milk, bring to a simmer, and cook until the chicken is tender.",
+		  "Adjust seasoning as needed. Serve with steamed rice or naan bread."
+		],
+		"difficulty": "Easy"
+	  },
+	  {
+		"name": "Beef Lasagna",
+		"timeToPrepare": "1 hour 30 minutes",
+		"ingredients": [
+		  "500g ground beef",
+		  "1 onion, finely chopped",
+		  "3 garlic cloves, minced",
+		  "800g canned crushed tomatoes",
+		  "2 tablespoons tomato paste",
+		  "1 teaspoon dried oregano",
+		  "1 teaspoon dried basil",
+		  "250g lasagna noodles",
+		  "300g ricotta cheese",
+		  "200g shredded mozzarella cheese",
+		  "50g grated Parmesan cheese",
+		  "Salt and black pepper to taste"
+		],
+		"listOfSteps": [
+		  "In a pan, brown the ground beef with onions and garlic. Drain excess fat.",
+		  "Add the crushed tomatoes, tomato paste, oregano, basil, salt, and black pepper. Simmer for 20 minutes.",
+		  "Cook the lasagna noodles according to the package instructions.",
+		  "Preheat the oven to 180°C (350°F).",
+		  "In a baking dish, layer the lasagna: meat sauce, noodles, ricotta, mozzarella, and Parmesan cheese.",
+		  "Repeat the layers and finish with a layer of meat sauce and cheeses on top.",
+		  "Bake in the oven for 30-35 minutes until the cheese is bubbly and golden brown.",
+		  "Let it rest for a few minutes before serving."
+		],
+		"difficulty": "Intermediate"
+	  },
+	  {
+		"name": "Caprese Salad",
+		"timeToPrepare": "15 minutes",
+		"ingredients": [
+		  "2 large tomatoes, sliced",
+		  "200g fresh mozzarella, sliced",
+		  "Fresh basil leaves",
+		  "2 tablespoons balsamic glaze",
+		  "2 tablespoons extra virgin olive oil",
+		  "Salt and black pepper to taste"
+		],
+		"listOfSteps": [
+		  "Alternate slices of tomatoes and fresh mozzarella on a serving plate.",
+		  "Tuck fresh basil leaves between the slices.",
+		  "Drizzle balsamic glaze and olive oil over the salad.",
+		  "Season with salt and black pepper to taste.",
+		  "Serve as a refreshing appetizer or side dish."
+		],
+		"difficulty": "Easy"
+	  },
+	  {
+		"name": "Thai Green Curry",
+		"timeToPrepare": "45 minutes",
+		"ingredients": [
+		  "400g chicken, sliced",
+		  "1 can (400ml) coconut milk",
+		  "2 tablespoons green curry paste",
+		  "1 red bell pepper, sliced",
+		  "1 green bell pepper, sliced",
+		  "1 zucchini, sliced",
+		  "1 cup bamboo shoots",
+		  "2 tablespoons fish sauce",
+		  "1 tablespoon brown sugar",
+		  "Fresh basil leaves for garnish",
+		  "Cooked jasmine rice"
+		],
+		"listOfSteps": [
+		  "In a pot, heat a splash of coconut milk and stir in the green curry paste until fragrant.",
+		  "Add the sliced chicken and cook until it turns white.",
+		  "Pour in the remaining coconut milk and bring it to a simmer.",
+		  "Add the sliced bell peppers, zucchini, and bamboo shoots. Simmer until vegetables are tender.",
+		  "Season the curry with fish sauce and brown sugar. Adjust to your taste.",
+		  "Garnish with fresh basil leaves and serve with jasmine rice."
+		],
+		"difficulty": "Intermediate"
+	  },
+	  {
+		"name": "Pasta Aglio e Olio",
+		"timeToPrepare": "20 minutes",
+		"ingredients": [
+		  "200g spaghetti",
+		  "4 garlic cloves, thinly sliced",
+		  "1 teaspoon red pepper flakes",
+		  "1/3 cup olive oil",
+		  "1/4 cup chopped parsley",
+		  "Salt and black pepper to taste"
+		],
+		"listOfSteps": [
+		  "Cook the spaghetti in boiling salted water until al dente.",
+		  "In a pan, heat the olive oil and add sliced garlic and red pepper flakes. Cook until garlic turns golden.",
+		  "Add the cooked spaghetti to the pan and toss well in the garlic-infused oil.",
+		  "Season with salt and black pepper to taste.",
+		  "Garnish with chopped parsley before serving."
+		],
+		"difficulty": "Easy"
+	  },
+	  {
+		"name": "Grilled Salmon",
+		"timeToPrepare": "25 minutes",
+		"ingredients": [
+		  "4 salmon fillets",
+		  "2 tablespoons olive oil",
+		  "2 tablespoons lemon juice",
+		  "2 cloves garlic, minced",
+		  "1 teaspoon dried oregano",
+		  "1 teaspoon dried thyme",
+		  "Salt and black pepper to taste"
+		],
+		"listOfSteps": [
+		  "Preheat the grill to medium-high heat.",
+		  "In a bowl, mix olive oil, lemon juice, minced garlic, oregano, thyme, salt, and black pepper.",
+		  "Coat the salmon fillets with the marinade and let them sit for 10 minutes.",
+		  "Grill the salmon for about 4-5 minutes on each side or until cooked through.",
+		  "Serve with your favorite side dishes."
+		],
+		"difficulty": "Easy"
+	  },
+	  {
+		"name": "Beef Stir-Fry",
+		"timeToPrepare": "25 minutes",
+		"ingredients": [
+		  "400g beef sirloin, thinly sliced",
+		  "2 tablespoons soy sauce",
+		  "1 tablespoon oyster sauce",
+		  "1 tablespoon hoisin sauce",
+		  "2 tablespoons vegetable oil",
+		  "1 onion, sliced",
+		  "1 bell pepper, sliced",
+		  "1 cup broccoli florets",
+		  "2 garlic cloves, minced",
+		  "Cooked rice for serving"
+		],
+		"listOfSteps": [
+		  "In a bowl, marinate the sliced beef with soy sauce, oyster sauce, and hoisin sauce.",
+		  "In a wok or large pan, heat the vegetable oil over high heat.",
+		  "Add the marinated beef and stir-fry for 2-3 minutes until it browns. Remove from the pan.",
+		  "In the same pan, add a bit more oil if needed, and sauté the garlic, onion, bell pepper, and broccoli.",
+		  "Stir-fry until the vegetables are tender-crisp.",
+		  "Return the cooked beef to the pan and toss everything together.",
+		  "Serve the beef stir-fry over steamed rice."
+		],
+		"difficulty": "Intermediate"
+	  },
+	  {
+		"name": "Chocolate Lava Cake",
+		"timeToPrepare": "30 minutes",
+		"ingredients": [
+		  "1/2 cup unsalted butter",
+		  "4 ounces bittersweet chocolate",
+		  "1 cup powdered sugar",
+		  "2 whole eggs",
+		  "3 egg yolks",
+		  "1 teaspoon vanilla extract",
+		  "1/2 cup all-purpose flour",
+		  "Pinch of salt",
+		  "Vanilla ice cream for serving"
+		],
+		"listOfSteps": [
+		  "Preheat the oven to 200°C (400°F). Grease and flour 4 ramekins.",
+		  "In a microwave-safe bowl, melt the butter and bittersweet chocolate together.",
+		  "Stir in the powdered sugar until well combined.",
+		  "Add the whole eggs and egg yolks, one at a time, mixing well after each addition.",
+		  "Stir in the vanilla extract, flour, and a pinch of salt until the batter is smooth.",
+		  "Divide the batter among the prepared ramekins.",
+		  "Bake in the preheated oven for 12-14 minutes. The edges should be set, but the center will still be soft.",
+		  "Remove the ramekins from the oven and let them cool for a minute before serving.",
+		  "Invert each ramekin onto a serving plate and serve with a scoop of vanilla ice cream."
+		],
+		"difficulty": "Intermediate"
+	  }
+	]
   }
   
