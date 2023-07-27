@@ -1,8 +1,8 @@
 import express from "express";
 import * as dotenv from "dotenv";
 import fs from "fs";
-import routerUser from "./routes/users.js";
-import routerRecipe from "./routes/recipes.js";
+import routerUser from "./routes/users.mjs";
+import routerRecipe from "./routes/recipes.mjs";
 import foodDishes from "./data/dishes.js";
 dotenv.config();
 
@@ -13,6 +13,7 @@ app.use(express.json());
 
 app.use("/recipes", routerRecipe);
 app.use("/users", routerUser);
+
 let names = [];
 app.get("/", (req, res, next) => {
 	if (names.length == 0) {

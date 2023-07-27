@@ -1,6 +1,6 @@
-const express = require("express");
+import express from "express";
 const router = express.Router();
-const fs = require("fs");
+import fs from "fs";
 
 let list = [];
 const jsonTest = async () => {
@@ -21,9 +21,9 @@ const jsonTest = async () => {
 	}
 };
 
-router.get("/", (req, res) => {
+router.get("/", async (req, res) => {
 	if (list.length === 0) {
-		jsonTest();
+		await jsonTest();
 		res.send("List " + list);
 	} else {
 		res.send("List " + list);
@@ -51,4 +51,4 @@ router.get("/chicken%20curry", (req, res) => {
 	}
 });
 
-module.exports = router;
+export default router;
