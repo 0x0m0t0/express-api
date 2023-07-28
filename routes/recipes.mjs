@@ -21,12 +21,21 @@ let list = [];
 
 const logger = (req, res, next) => {
 	console.log("hello there I'm a logger in this little world");
+	console.log(`Accessed on ${new Date().toISOString()} at: ${req.originalUrl}`);
 	next();
+};
+const authorizeUsersAccess = (req, res, next) => {
+	if (req.query.admin === "true") {
+		// /recipes?admin=true
+		next();
+	} else {
+		res.send("ERROR: You must be an admin");
+	}
 };
 
 router.use(logger);
 
-router.get("/", async (req, res) => {
+router.get("/", authorizeUsersAccess, async (req, res) => {
 	// res.send(await jsonTest());
 	res.send(foodDishes);
 });

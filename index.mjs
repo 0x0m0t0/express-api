@@ -5,6 +5,7 @@ import routerUser from "./routes/users.mjs";
 import routerRecipe from "./routes/recipes.mjs";
 import foodDishes from "./data/dishes.js";
 import authi from "./auth.mjs";
+import jwt from "jsonwebtoken";
 
 import ejs from "ejs";
 
@@ -22,6 +23,7 @@ let names = [];
 
 app.set("view engine", "ejs");
 // app.set("views", "./views/pages");
+app.use("/static", express.static("public"));
 app.get("/info", (req, res) => {
 	let list = foodDishes.map(
 		(el) =>
@@ -61,6 +63,14 @@ app.use((req, res, next) => {
 	let date = new Date(Date.now());
 	console.log("Time:", date.toString());
 	next();
+});
+
+app.post("/login", (req, res) => {
+	const user = { name: user };
+	const username = req.body.username;
+
+	const accessToken = jwt.sign(user, access);
+	res.json({ accessToken: accessToken });
 });
 
 app.listen(PORT, () => console.log(`Server having fun at 🌀🌀🌀: http://localhost:${PORT}/`));

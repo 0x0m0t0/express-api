@@ -8,21 +8,25 @@
 <body>
     <header>
     </header>
-    <main style="text-align:center">
-        <h1 style="text-align:center">Welcome</h1>
+    <main>
+        <h1>Welcome to this little recipe API</h1>
 
-        <div style="text-align:center">
+        <section> <%- include('./layout/info-table.ejs') %></section>
+        <section>
+            <details>
+                <summary>Complete Recipe List</summary>
+                <div>
 
-            <h2 style="text-align:center">The list of recipes</h2>
-            <ol style="text-align:center">
-                <% for(let i=0; i < list.length; i++){ %>
-                    <li style="text-align:center; list-style-type: none;">
-                        <%= list[i] %>
-                    </li>
-                    <% } %>
-            </ol>
-
-        </div>
+                    <ol>
+                        <% for(let i=0; i < list.length; i++){ %>
+                            <li>
+                                <%= list[i] %>
+                            </li>
+                            <% } %>
+                    </ol>
+                </div>
+            </details>
+        </section>
     </main>
 </body>
 <footer>
