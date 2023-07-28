@@ -19,6 +19,13 @@ let list = [];
 // 	}
 // };
 
+const logger = (req, res, next) => {
+	console.log("hello there I'm a logger in this little world");
+	next();
+};
+
+router.use(logger);
+
 router.get("/", async (req, res) => {
 	// res.send(await jsonTest());
 	res.send(foodDishes);

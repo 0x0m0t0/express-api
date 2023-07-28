@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+
+<head>
+    <%- include('./layout/head.ejs') %>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main style="text-align:center">
+        <h1 style="text-align:center">Welcome</h1>
+
+        <div style="text-align:center">
+
+            <h2 style="text-align:center">The list of recipes</h2>
+            <ol style="text-align:center">
+                <% for(let i=0; i < list.length; i++){ %>
+                    <li style="text-align:center; list-style-type: none;">
+                        <%= list[i] %>
+                    </li>
+                    <% } %>
+            </ol>
+
+        </div>
+    </main>
+</body>
+<footer>
+
+
+</footer>
+
+</html>

@@ -5,6 +5,9 @@ import routerUser from "./routes/users.mjs";
 import routerRecipe from "./routes/recipes.mjs";
 import foodDishes from "./data/dishes.js";
 import authi from "./auth.mjs";
+
+import ejs from "ejs";
+
 dotenv.config();
 
 const app = express();
@@ -16,6 +19,20 @@ app.use("/recipes", routerRecipe);
 app.use("/users", routerUser);
 
 let names = [];
+
+app.set("view engine", "ejs");
+// app.set("views", "./views/pages");
+app.get("/info", (req, res) => {
+	let list = foodDishes.map(
+		(el) =>
+			// {return {
+			// name:
+			el.name,
+		// };}
+	);
+
+	res.render("index", { list });
+});
 app.use((req, res, authi, next) => {});
 
 app.get(`/`, authi, (req, res, next) => {
